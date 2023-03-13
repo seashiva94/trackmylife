@@ -1,0 +1,17 @@
+# Task Tracker
+
+## Build Don't Talk!!
+- come up with task specifications [done] [30 mins]
+- write basic markdown parser [WIP] [2 hr]
+- write service to track files and read data [todo] [2 hrs]
+- save data in a database - pre-formatted local data > pre data service [todo] [2 hrs]
+- dealing with tag ambiguity
+
+## Research 
+- read commonmark format and write a basic parser
+    - all I need are headings, and list items -> tags are my thing
+- read more docs and understand kibana data format
+- index data based on tags <query search sort>
+- tryout logstash to understand data format
+    - I want to use my own data model and data aggregator
+- maybe not using kibana since it only supports logstash currently ??
